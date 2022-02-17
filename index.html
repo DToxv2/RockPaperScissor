@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
-    <script src = "script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel='stylesheet' href = 'style.css'>
 </head>
 <body>
-    123
+    <div class="header">
+        <div class="title"><h1>Roche, Papier, Ciseaux</h1></div>
+        <div class="description">The ultimate rock, paper, scissor experience in French</div>
+        <div class="rules">The first to reach five (cinq) is the winner!</div>
+    </div>
+    <div id="game">
+        <div class="buttons">
+            <input type="image" class="hello" id="roche" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Ft%2Frock-icon-vector-isolated-white-background-sign-line-transparent-linear-symbol-design-outline-style-133757824.jpg&f=1&nofb=1"></button>
+            <input type="image" class="hello" id="papier" src="https://thumbs.dreamstime.com/t/paper-clip-icon-element-simple-icon-websites-web-design-mobile-app-info-graphics-thin-line-icon-website-design-114182828.jpg"></input>
+            <input type="image" class="hello" id="ciseaux" src="https://www.downloadclipart.net/thumb/scissors-png-clipart.png" width="160px" height="160px"></input>
+        </div>
+        <div class="onGoing">   </div>
+    </div>
+    <div class="score">
+        <div class="humanPoints"></div>
+        <div class="computerPoints"></div>
+    </div>
 </body>
 </html>

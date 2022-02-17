@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+button {
+    margin: 10px;
+}
+
+.header {
+    background-color: #FF5959;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.score {
+    background-color: #676FA3;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 50px;
+}
+
+#game {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.onGoing {
+    margin: 20px;
+}
+
+.rules {
+    margin: 20px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.hello {
+    border: 2px solid black;
+}
